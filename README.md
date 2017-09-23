@@ -43,10 +43,16 @@ A vizualization of the computed grid, with arbitrary color. Look at it with low 
 #### function.png
 
 
+![function](function.png "function")
+
+
 Plotted array of values of the function, at every (geometric) node.
 
 
 #### merged.png
+
+
+![merged](merged.png "merged")
 
 
 Replot of the grid, with color according to the value of the baricentric mean of the function with the 4 elements, for each node. The nice final draw.
