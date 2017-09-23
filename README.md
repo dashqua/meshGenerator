@@ -17,3 +17,24 @@ So just type:
 
 
   make NA=100 NB=100 A=5 B=5
+  
+  
+To clean:
+
+
+  make clean
+
+
+#Results
+Among all the data, 3 png files are produced.
+
+####meshgrid.png
+A vizualization of the computed grid, with arbitrary color. Look at it with low number of element in particular.
+
+####function.png
+Plotted array of values of the function, at every (geometric) node.
+
+####merged.png
+Replot of the grid, with color according to the value of the baricentric mean of the function with the 4 elements, for each node. The nice final draw.
+
+Note that the process to obtain this result is highly non optimized, and several things such as the first plots can be avoided to make the computation faster (the goal was to get a result).
