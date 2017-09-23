@@ -34,6 +34,8 @@ Among all the data, 3 png files are produced.
 
 #### meshgrid.png
 
+![meshgrid](meshgrid.png "meshgrid")
+
 
 A vizualization of the computed grid, with arbitrary color. Look at it with low number of element in particular.
 
