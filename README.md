@@ -14,4 +14,4 @@ To simplify, consider a mesh of a rectangle of base A and height B, with small r
 Note that it is possible to mesh any type of orthogonal rectangle (by this, I mean non parallelogram) with any type of small rectangles.
 
 So just type:
-`make NA=100 NB=100 A=5 B=5`
+  make NA=100 NB=100 A=5 B=5
